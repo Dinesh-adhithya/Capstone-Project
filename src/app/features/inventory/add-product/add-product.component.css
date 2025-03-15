@@ -1,0 +1,82 @@
+/* Form container styling */
+form {
+    background: linear-gradient(135deg, #1b263b, #0d1b2a);
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.3);
+    max-width: 500px;
+    margin: 40px auto;
+    color: #f8f9fa;
+    font-size: 16px;
+  }
+  
+  /* Styling for form labels */
+  label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+    color: #ffd700;
+  }
+  
+  /* Input fields */
+  input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    background: #14213d;
+    color: white;
+    font-size: 16px;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  /* Focus effect on inputs */
+  input:focus {
+    border-color: #ffd700;
+    box-shadow: 0px 0px 8px rgba(255, 215, 0, 0.6);
+    outline: none;
+  }
+  
+  /* Validation error messages */
+  small {
+    color: #ff4c4c;
+    font-size: 14px;
+    display: block;
+    margin-top: -10px;
+    margin-bottom: 10px;
+  }
+  
+  /* Add Product button */
+  button {
+    width: 100%;
+    padding: 12px;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    background: #28a745;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out, transform 0.2s ease-in-out;
+  }
+  
+  /* Button hover and active effects */
+  button:hover {
+    background: #218838;
+    transform: scale(1.05);
+  }
+  
+  button:disabled {
+    background: #6c757d;
+    cursor: not-allowed;
+  }
+  
+  /* Responsive Form */
+  @media screen and (max-width: 600px) {
+    form {
+      padding: 20px;
+      width: 90%;
+    }
+  }
+  

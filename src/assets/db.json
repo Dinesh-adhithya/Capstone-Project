@@ -1,0 +1,74 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "email": "dinesh@gmail.com",
+      "password": "dinesh123",
+      "firstName": "dinesh",
+      "lastName": "adhithya",
+      "location": "kanchipuram",
+      "mobileNumber": "8522151852"
+    },
+    {
+      "id": 2,
+      "email": "vicky@example.com",
+      "password": "vicky123",
+      "firstName": "vignesh",
+      "lastName": "kumar",
+      "location": "chennai",
+      "mobileNumber": "85642367892"
+    },
+    {
+      "id": 3,
+      "email": "vijay@gmail.com",
+      "password": "vijay123",
+      "firstName": "vijay",
+      "lastName": "kumar",
+      "location": "coimbatore",
+      "mobileNumber": "9875632475"
+    },
+    {
+      "email": "nithi@gmail.com",
+      "password": "nithi123",
+      "firstName": "nithi",
+      "lastName": "kumar",
+      "location": "coimbatore",
+      "mobileNumber": "9953215486",
+      "id": 4
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "Lenovo Pro book 1",
+      "description": "A high-performance gaming laptop equipped with the latest Intel Core i9-14900HX processor, NVIDIA GeForce RTX 4080, 32GB DDR5 RAM, and a 1TB NVMe SSD. Features a 16-inch QHD+ 240Hz display with G-Sync for immersive gaming experience.",
+      "manufacturer": "Lenovo",
+      "price": 2799,
+      "quantity": 7
+    },
+    {
+      "id": 2,
+      "name": "Galaxy S25 Ultra",
+      "description": "The latest flagship smartphone featuring a Snapdragon 8 Gen 4 processor, a stunning 6.9-inch Dynamic AMOLED 2X display with 120Hz refresh rate, and a versatile camera system with a 200MP primary sensor. Includes 12GB of RAM, 256GB of storage, and supports super-fast 5G connectivity.",
+      "manufacturer": "Samsung",
+      "price": 1299,
+      "quantity": 18
+    },
+    {
+      "name": "MacBook Air M3",
+      "description": "A lightweight and powerful laptop powered by Apple's M3 chip, featuring a 13.6-inch Retina display, up to 24GB of RAM, and a 2TB SSD. Offers all-day battery life and seamless integration with other Apple devices.",
+      "manufacturer": "Apple",
+      "price": 115000,
+      "quantity": 21,
+      "id": 4
+    },
+    {
+      "name": "MacBook Air M2",
+      "description": "Experience the perfect blend of performance and portability with the MacBook Air M1. Powered by Apple’s revolutionary M1 chip, this ultra-thin laptop delivers lightning-fast speed",
+      "manufacturer": "APPLE",
+      "price": 750000,
+      "quantity": 25,
+      "id": 1742042094074
+    }
+  ]
+}

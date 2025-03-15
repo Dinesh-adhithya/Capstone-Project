@@ -1,0 +1,63 @@
+/* Navbar container with elegant gradient */
+nav {
+    background: linear-gradient(135deg, #0d1b2a, #1b263b);
+    padding: 15px 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    border-radius: 12px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.3);
+  }
+  
+  /* Styling for navigation links */
+  nav a {
+    text-decoration: none;
+    color: #f8f9fa;
+    font-size: 17px;
+    font-weight: 600;
+    transition: all 0.3s ease-in-out;
+    padding: 10px 18px;
+    border-radius: 6px;
+  }
+  
+  /* Hover effect with golden glow */
+  nav a:hover {
+    background: rgba(255, 215, 0, 0.3);
+    color: #ffd700;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  /* Logout button with stylish red tone */
+  button {
+    background: #ff4c4c;
+    border: none;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px 18px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out, transform 0.2s ease-in-out;
+  }
+  
+  /* Logout button hover effect */
+  button:hover {
+    background: #d32f2f;
+    transform: scale(1.05);
+  }
+  
+  /* Responsive Navbar for Mobile */
+  @media screen and (max-width: 768px) {
+    nav {
+      flex-direction: column;
+      text-align: center;
+      padding: 20px;
+    }
+  
+    nav a, button {
+      width: 100%;
+      text-align: center;
+    }
+  }
+  

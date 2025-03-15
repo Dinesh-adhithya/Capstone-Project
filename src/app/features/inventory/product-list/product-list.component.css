@@ -1,0 +1,137 @@
+/* Container for the product list */
+.product-list-container {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background: linear-gradient(135deg, #1b263b, #0d1b2a);
+    border-radius: 12px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.3);
+    color: #f8f9fa;
+    text-align: center;
+  }
+  
+  /* Heading */
+  h2 {
+    color: #ffd700;
+    font-size: 24px;
+    margin-bottom: 15px;
+  }
+  
+  /* Product list */
+  .product-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  /* Individual product item */
+  .product-item {
+    background: #14213d;
+    border-radius: 8px;
+    padding: 15px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  /* Hover effect on product item */
+  .product-item:hover {
+    transform: scale(1.02);
+    box-shadow: 0px 3px 10px rgba(255, 215, 0, 0.3);
+  }
+  
+  /* Product name */
+  .product-name {
+    font-size: 18px;
+    font-weight: bold;
+    color: #ffd700;
+  }
+  
+  /* Product actions */
+  .product-actions {
+    display: flex;
+    gap: 10px;
+  }
+  
+  /* Button styles */
+  button {
+    padding: 8px 12px;
+    border: none;
+    border-radius: 6px;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out, transform 0.2s ease-in-out;
+  }
+  
+  /* View Button */
+  .view-btn {
+    background: #007bff;
+    color: white;
+  }
+  
+  .view-btn:hover {
+    background: #0056b3;
+    transform: scale(1.1);
+  }
+  
+  /* Edit Button */
+  .edit-btn {
+    background: #ffc107;
+    color: black;
+  }
+  
+  .edit-btn:hover {
+    background: #e0a800;
+    transform: scale(1.1);
+  }
+  
+  /* Delete Button */
+  .delete-btn {
+    background: #dc3545;
+    color: white;
+  }
+  
+  .delete-btn:hover {
+    background: #c82333;
+    transform: scale(1.1);
+  }
+  
+  /* Add Product Button */
+  .add-product-btn {
+    margin-top: 20px;
+    display: block;
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    background: #28a745;
+    color: white;
+    border-radius: 6px;
+    text-decoration: none;
+    text-align: center;
+    transition: background 0.3s ease-in-out, transform 0.2s ease-in-out;
+  }
+  
+  .add-product-btn:hover {
+    background: #218838;
+    transform: scale(1.05);
+  }
+  
+  /* Responsive Design */
+  @media screen and (max-width: 600px) {
+    .product-item {
+      flex-direction: column;
+      text-align: center;
+      padding: 10px;
+    }
+  
+    .product-actions {
+      margin-top: 10px;
+    }
+  
+    button {
+      width: 100%;
+    }
+  }
+  
